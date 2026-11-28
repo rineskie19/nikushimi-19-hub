@@ -1,0 +1,36 @@
+{
+  "name": "nikushimi-19-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3068",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "owner:setup": "node --env-file=.env.local scripts/setup-owner.mjs",
+    "services:check": "node --env-file=.env.local scripts/check-services.mjs"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.3.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@tanstack/react-table": "^8.21.3",
+    "cloudinary": "^2.7.0",
+    "lucide-react": "^0.577.0",
+    "mongodb": "^7.0.0",
+    "motion": "^12.23.0",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "sass": "^1.89.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0"
+  }
+}

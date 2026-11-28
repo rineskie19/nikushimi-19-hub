@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.vercel/
+.local/
+.env*
+!.env.example
+*.tsbuildinfo
+*.apk
+*.aab
+*.log
+next-env.d.ts
